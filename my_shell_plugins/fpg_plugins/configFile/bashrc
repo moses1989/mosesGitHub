@@ -1,0 +1,9 @@
+umask 027
+export LS_OPTIONS="--color=auto"
+eval "`dircolors`"
+alias ls="ls -CF -lht $LS_OPTIONS"
+alias ll="ls $LS_OPTIONS -l"
+alias l="ls $LS_OPTIONS -lA"
+alias grep="grep $LS_OPTIONS"
+PS1="\[\e[31;1m\][\d | \t] \[\e[32;1m\][\u@\H] \[\e[33;1m\][\w] \[\e[37;1m\][\#/\!]\n\[\e[35;1m\][moses.mo] \[\e[36;1m\][\$]>>>"
+PS2="\[\e[35;1m\][moses.mo] \[\e[36;1m\][\$]>"
