@@ -483,7 +483,7 @@ Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 " IndentLine (代码缩进线)
 Bundle 'Yggdroot/indentLine'
-let g:indentLine_char = '┊'
+"let g:indentLine_char = '┊'
 
 " L9 (自动补全AutoComplPop的依赖库)
 Bundle 'L9'
